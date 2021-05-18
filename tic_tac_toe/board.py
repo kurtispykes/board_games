@@ -268,47 +268,47 @@ class TicTacToe:
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_1))
+                                       command=lambda: self.__click_button(self.button_1))
         self.button_2 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_2))
+                                       command=lambda: self.__click_button(self.button_2))
         self.button_3 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_3))
+                                       command=lambda: self.__click_button(self.button_3))
         self.button_4 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_4))
+                                       command=lambda: self.__click_button(self.button_4))
         self.button_5 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_5))
+                                       command=lambda: self.__click_button(self.button_5))
         self.button_6 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_6))
+                                       command=lambda: self.__click_button(self.button_6))
         self.button_7 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_7))
+                                       command=lambda: self.__click_button(self.button_7))
         self.button_8 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_8))
+                                       command=lambda: self.__click_button(self.button_8))
         self.button_9 = tkinter.Button(self.root, text=" ",
                                        font=("Arial", 20),
                                        height=3, width=6,
                                        bg="SystemButtonFace",
-                                       command=lambda: self.click_button(self.button_9))
+                                       command=lambda: self.__click_button(self.button_9))
         # Put the buttons in a grid
         self.button_1.grid(row=0, column=0)
         self.button_2.grid(row=0, column=1)
